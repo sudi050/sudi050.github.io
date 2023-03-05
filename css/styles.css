@@ -1,0 +1,113 @@
+body{
+    background-color: #000000ad;
+}
+nav{
+    margin-bottom: 10px;
+}
+h5,h1{
+    color: #fbf9f6;
+}
+a:link, a:visited {
+    color: #090909;
+    text-decoration: none;
+}
+a:hover, a:active {
+    color: #1cf559;
+}
+.accordion{
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+
+.row{
+    margin-left: 3%;
+}
+
+img{
+    margin-bottom: 5%;
+}
+
+@media screen and (min-width: 576px) {
+    .row{
+        margin-left: 0%;
+    }
+    .col-sm-3{
+        width: 25%;
+    }
+    .col-sm-4{
+        width: 33.33%;
+    }
+    .col-sm-6{
+        width: 50%;
+    }
+    .col-sm-8{
+        width: 66.66%;
+    }
+    .col-sm-12{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .row{
+        margin-left: 0%;
+    }
+    .col-md-3{
+        width: 25%;
+    }
+    .col-md-4{
+        width: 33.33%;
+    }
+    .col-md-6{
+        width: 50%;
+    }
+    .col-md-8{
+        width: 66.66%;
+    }
+    .col-md-12{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .row{
+        margin-left: 5%;
+    }
+    .col-lg-3{
+        width: 30%;
+    }
+    .col-lg-4{
+        width: 33.33%;
+    }
+    .col-lg-6{
+        width: 50%;
+    }
+    .col-lg-8{
+        width: 66.66%;
+    }
+    .col-lg-12{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .row{
+        margin-left: 5%;
+    }
+    .col-xl-3{
+        width: 22%;
+    }
+    .col-xl-4{
+        width: 33.33%;
+    }
+    .col-xl-6{
+        width: 50%;
+    }
+    .col-xl-8{
+        width: 66.66%;
+    }
+    .col-xl-12{
+        width: 100%;
+    }
+}

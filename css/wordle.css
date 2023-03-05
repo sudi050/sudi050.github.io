@@ -1,0 +1,64 @@
+body{
+    background-color: #000000ad;
+}
+nav{
+    margin-bottom: 10px;
+}
+h5{
+    color: white;
+    align-self: center;
+}
+#board {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#board div{
+    display: flex;
+}  
+
+.cell {
+border: 2px solid rgb(251, 248, 248);
+border-radius: 3px;
+margin: 2px;
+font-size: 40px;
+font-weight: 700;
+height: 60px;
+width: 60px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-transform: uppercase;
+}
+
+.filled-box {
+border: 2px solid black;
+}
+
+.row {
+display: flex;
+}
+
+#keyboard-cont {
+    margin: 10px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#keyboard-cont div {
+    display: flex;
+}
+
+.second-row {
+margin: 8px;
+}
+
+.keyboard-button {
+font-size: 15px;
+font-weight: 700;
+padding: 10px;
+margin-right: 5px;
+}
+  
