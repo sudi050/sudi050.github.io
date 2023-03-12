@@ -1,6 +1,6 @@
 var data_backup
 var img=new Image();
-img.src="https://superimageconverter.com/output/amrita.jpg";
+img.src="https://source.unsplash.com/random/300x300?cars";
 var canvas=document.getElementById("canvas");
 var ctx=canvas.getContext("2d",{willReadFrequently:true});
 img.onload=()=>{
@@ -22,3 +22,8 @@ document.querySelectorAll(".slider").forEach((slider)=>{
         ctx.putImageData(imageData,0,0);
     });
 });
+
+function add(){
+    img.src=document.getElementById("title").value;
+}
+

@@ -17,21 +17,23 @@ for (let i = 0; i < word.length; i++) {
 document.querySelectorAll(".key").forEach((key)=>{
     key.id=key.innerHTML;
     key.onclick = (e)=>{
+        if(e.target.id !== "Back" || e.target.id !== "Enter") {
         insertLetter(e.target.id);
     }
-})
-
-document.onkeydown = function(e) {
-    if(e.key === "Backspace" && nextLetter !== 0) {
+    if(e.target.id === "Back" && nextLetter !== 0) {
         deleteLetter();
         Bl = true;
     }
-    if(e.key === "Enter" && Bl) {
+    if(e.target.id === "Enter" && Bl) {
         check();
     }
-    if(/^[a-zA-Z]$/.test(e.key) && e.key.length === 1) {
-        insertLetter(e.key);
-    }
+}
+})
+
+document.onkeydown = function(e) {
+    // if(/^[a-zA-Z]$/.test(e.key) && e.key.length === 1) {
+    //     insertLetter(e.key);
+    // }
 };
 
 

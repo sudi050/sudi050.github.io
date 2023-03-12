@@ -20,7 +20,7 @@ a:hover, a:active {
     margin-top: 2%;
 }
 
-.box {
+.cont{ 
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 3px;
@@ -31,20 +31,11 @@ a:hover, a:active {
     padding: 10px;
 }
 
-.imgs{
-    margin-top: 2%;
-    margin-left: 3%;
-    margin-right: 5%;
-    margin-bottom: 2%;
-    width: 20%;
-    align-self: left;
-}
-
 .slider {
     -webkit-appearance: none;
     appearance: none;
-    width: 100%;
-    background: #f00;
+    width: 80%;
+    background: rgb(0, 0, 0);
     opacity: 1;
     outline: none;
     height: 10px;
@@ -68,7 +59,12 @@ a:hover, a:active {
     background: #000;
 }
 
-.col{
-    width: 30%;
+.bot{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    padding: 10px;
+    width: 120px;
+    height: 40px;
 }
 
