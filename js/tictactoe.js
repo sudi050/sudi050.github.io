@@ -28,7 +28,6 @@ function handleClick(event) {
     var index = event.target.id;
 
     stack[0] = index
-    console.log(stack[0],index)
     board[index] = player;
     event.target.style.color = player === 'X' ? '#66ff66' : '#1a8cff';
     event.target.textContent = player;
